@@ -1,0 +1,29 @@
+img {
+  width: 100%;
+}
+
+.wrapper {
+  width: 480px;
+  height: auto;
+  margin: auto;
+  padding: 50px;
+  background-color: white;
+}
+
+body {
+  background: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/57722/4800/3600/m1/fpnw/wm1/sea-background02-.jpg?1386948776&s=c5fe98625f42eb198c0ececd0561fc81");
+  background-position: center;
+  background-size: cover;
+}
+
+li {
+list-style-type: none;
+}
+
+.content {
+  display: inline-flex;
+}
+
+.sidebar {
+  display:inline-flex;
+}
