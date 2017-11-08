@@ -1,0 +1,38 @@
+body {
+  background: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/57722/4800/3600/m1/fpnw/wm1/sea-background02-.jpg?1386948776&s=c5fe98625f42eb198c0ececd0561fc81");
+  background-position: center;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  width: 480px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.block-4 {
+  border-top: 1px solid;
+  border-color: black;
+}
+
+.block-5 {
+  display: inline-block;
+  height: auto;
+  width: 240px;
+  margin-left: 365px;
+  margin-right: -4px;
+  vertical-align: top;
+  text-align: right;
+}
+
+.block-6 {
+  display: inline-block;
+  height: 186px;
+  width: 200px;
+}
