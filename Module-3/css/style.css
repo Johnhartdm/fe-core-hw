@@ -8,32 +8,20 @@ img {
   width: 100%;
 }
 
+li {
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 30px;
+}
+
 .wrapper {
   width: 480px;
   height: auto;
   margin: auto;
   padding: 20px;
   background-color: white;
-  text-align: left;
 }
 
-.block-4 {
-  border-top: 1px solid;
-  border-color: black;
-}
-
-.block-5 {
-  display: inline-block;
-  height: auto;
-  width: 240px;
-  margin-left: 365px;
-  margin-right: -4px;
-  vertical-align: top;
-  text-align: right;
-}
-
-.block-6 {
-  display: inline-block;
-  height: 186px;
-  width: 200px;
+.block-3 {
+  border-bottom: 1px solid;
 }
