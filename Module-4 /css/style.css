@@ -1,0 +1,116 @@
+.wrapper {
+  width: 900px;
+  height: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+body {
+  background: url(http://funkyimg.com/i/2sBLx.png);
+  background-position: center;
+  background-size: cover;
+  font-family: arial ;
+}
+
+img {
+  float:left;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  height: 250px;
+  width: 370px;
+}
+
+.block1 {
+  display: inline-block;
+  float: left;
+  width: 70%;
+  padding-bottom: 35px;
+  border-bottom: 1px solid;
+  border-color: silver;
+}
+
+.block2 {
+  display: inline-block;
+  width: 25%;
+  border-bottom: 1px solid;
+  border-color: silver;
+  padding-bottom: 76px;
+}
+
+.block3 {
+  display: inline-block;
+  width: 70%;
+}
+
+.block4 {
+  float: right;
+  display: inline-block;
+  width: 25%;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.outer-block {
+  padding-top: 40px;
+  text-align: center;
+}
+ol li {
+  list-style: none;
+}
+
+ol li {
+  position: relative;
+}
+
+ol li::before {
+  border-radius: 20px;
+  content: '';
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 0px;
+}
+
+ol li::before {
+  left: -35px;
+  background-color: #347199;
+}
+
+.inner-block {
+  position: relative;
+  width: 180px;
+  height: 200px;
+  padding: 10px;
+  background-color: #D3D3D3;
+  color: auto;
+  text-align: left;
+  line-height: auto;
+}
+
+.inner-block::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+}
+
+.inner-block::before {
+  border-top: 32px solid ;
+  border-left: 22px solid transparent ;
+  border-right: 22px solid transparent ;
+  bottom: -32px;
+  left: 80px;
+  color: #D3D3D3;
+}
+.block5 {
+  width: 70%;
+}
+
+.block5 li {
+  display: inline-block;
+  margin-right: 60px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-left: -10px;
+}
