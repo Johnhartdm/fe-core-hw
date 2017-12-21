@@ -23,9 +23,7 @@ ul li {
   justify-content: center;
   align-items: center;
   width: 900px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  width: 900px;
+  padding: 25px 0;
 }
 
 
@@ -329,8 +327,19 @@ h5 {
   text-align: center;
 }
 
-div.totop::before {
+
+div.totop a{
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+div.totop a::before {
   content: "\2227";
   color: #ffffff;
   font-size: 22px;
+}
+
+.totop:hover {
+  background: #87CEFA;
 }
