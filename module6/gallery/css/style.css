@@ -27,7 +27,6 @@ ul li {
   width: 900px;
 }
 
-
 .menu > li > a {
   font-family: 'Pathway Gothic One';
   font-size: 25px;
@@ -80,7 +79,6 @@ ul.submenu::before {
  border-width: 0 10px 10px 10px;
  border-color: transparent transparent #ffffff transparent;
 }
-
 
 .menu > li > a:hover {
   color: #87CEFA;
@@ -160,7 +158,6 @@ ul.gallery li::before {
   background-position: center center;
   font-size: 40px;
   position: absolute;
-  z-index: 1;
   width: 100%;
   height: 100%;
   left: 0;
@@ -177,12 +174,11 @@ ul.gallery li::before {
 .mask svg {
   width: 30%;
   height: 30%;
-} */
+}
 
 div.footer {
-  width: 940px;
+  width: 900px;
   height: 250px;
-  padding: 20px;
 }
 
 .info {
@@ -287,7 +283,7 @@ div.info ul li:nth-child(8) {
   justify-content: center;
 }
 
-.end li p{
+.end li p {
  color: #ffffff;
  font-size: 12px;
  padding: 5px;
@@ -295,7 +291,6 @@ div.info ul li:nth-child(8) {
  margin: 0;
  font-family: sans-serif;
 }
-
 
 .end li:nth-child(2)>p {
   border-left: 1px solid;

@@ -125,12 +125,30 @@ img {
   padding-bottom: 35px;
 }
 
+.wrapper h2{
+  font-family: 'Pathway Gothic One';
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.wrapper h4{
+  font-family: 'Pathway Gothic One';
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.wrapper p{
+  font-family: helvetica ;
+  font-size: 13px;
+}
+
 .block2 {
   display: inline-block;
   width: 25%;
   padding-bottom: 76px;
   vertical-align: top;
 }
+
 
 .border {
 border-bottom: 1px solid;
@@ -157,8 +175,8 @@ border-color: #808080;
 .outer-block {
   padding-top: 40px;
   text-align: center;
-  margin-left: -10px;
 }
+
 
 ol li {
   list-style: none;
@@ -203,9 +221,7 @@ ol li:nth-child(3)::before {
   height: 200px;
   padding: 10px;
   background-color: #D3D3D3;
-  color: auto;
   text-align: left;
-  line-height: auto;
   border-radius: 7px;
 }
 
@@ -267,6 +283,7 @@ ol li:nth-child(3)::before {
   margin-right: 60px;
   line-height: 40px;
   font-weight: bold;
+  font-family: 'Pathway Gothic One';
 }
 
 .block5 ul li::before {
@@ -313,6 +330,7 @@ div.info ul li {
 
 .info ul > li > a {
   color: #ffffff;
+  text-decoration: none;
 }
 
 div.info ul li:nth-child(8) {
