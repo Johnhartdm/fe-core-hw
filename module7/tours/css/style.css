@@ -35,7 +35,6 @@ body {
   text-decoration: none;
 }
 
-
 .menu li {
   position: relative;
   text-decoration: none;
@@ -85,7 +84,6 @@ ul.submenu::before {
  border-color: transparent transparent #ffffff transparent;
 }
 
-
 .menu > li > a:hover {
   color: #87CEFA;
 }
@@ -132,7 +130,6 @@ ul.submenu {
   height: 150px;
   padding-right: 25px;
 }
-
 
 .tours li {
   line-height: 3px;
@@ -216,6 +213,11 @@ textarea {
   color: #87CEFA
 }
 
+.search a {
+  color: #87CEFA;
+  text-decoration: none;
+}
+
 .container2 h2{
   padding-bottom: 30px;
 }
@@ -234,7 +236,6 @@ textarea {
   font-size: 14px;
 }
 
-
 div.footer {
   width: 990px;
   height: 250px;
@@ -246,6 +247,11 @@ div.info {
   justify-content: center;
   background-color: #000000;
   opacity: 0.6;
+}
+
+.info a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 div.info ul {
@@ -341,7 +347,6 @@ div.info ul li:nth-child(8) {
   filter: opacity(1);
 }
 
-
 .end {
   display: flex;
   justify-content: center;
@@ -350,12 +355,12 @@ div.info ul li:nth-child(8) {
 
 .end li p{
  color: #ffffff;
- font-size: 15px;
+ font-size: 12px;
  padding: 5px;
  height: 10px;
  margin: 0;
+ font-family: sans-serif;
 }
-
 
 .end li:nth-child(2)>p {
   border-left: 1px solid;

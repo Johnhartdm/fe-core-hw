@@ -35,7 +35,6 @@ body {
   text-decoration: none;
 }
 
-
 .menu li {
   position: relative;
   text-decoration: none;
@@ -84,7 +83,6 @@ ul.submenu::before {
  border-width: 0 10px 10px 10px;
  border-color: transparent transparent #ffffff transparent;
 }
-
 
 .menu > li > a:hover {
   color: #87CEFA;
@@ -172,7 +170,6 @@ input {
  margin-left: 70px;
 }
 
-
 div.footer {
   width: 990px;
   height: 250px;
@@ -208,6 +205,16 @@ div.info ul li {
 }
 
 .info ul > li > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container1 a {
+  color: #ff00ff;
+  text-decoration: none;
+}
+
+.info a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -279,7 +286,6 @@ div.info ul li:nth-child(8) {
   filter: opacity(1);
 }
 
-
 .end {
   display: flex;
   justify-content: center;
@@ -288,12 +294,12 @@ div.info ul li:nth-child(8) {
 
 .end li p{
  color: #ffffff;
- font-size: 15px;
+ font-size: 12px;
  padding: 5px;
  height: 10px;
  margin: 0;
+ font-family: sans-serif;
 }
-
 
 .end li:nth-child(2)>p {
   border-left: 1px solid;
