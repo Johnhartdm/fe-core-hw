@@ -228,11 +228,11 @@ div.info ul li:nth-child(8) {
 }
 
 div.mobile svg{
-  display: none;
+ display: none;
 }
 
 div.email svg{
-  display: none;
+ display: none;
 }
 
 .social_info {
@@ -595,4 +595,73 @@ div.totop a::before {
    display: block;
    width: 25px;
  }
+}
+
+@media only screen and (max-width: 320px) {
+  .wrapper {
+    max-width: 320px;
+  }
+
+  .menu li {
+    padding: 5px 15px 15px 18px;
+  }
+
+  .menu li:hover ul{
+    display: block;
+  }
+
+  ul.submenu {
+    min-width: 80px;
+    height: 85px;
+    top: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    z-index: 999;
+  }
+
+  .menu li a {
+    font-size: 20px;
+  }
+
+  .menu h1 {
+    margin-left: 20%;
+  }
+
+  ul.menu {
+    padding-left: 0;
+  }
+
+  .container1 {
+    width: 88.44%;
+    height: 100%
+  }
+
+  div.info ul li {
+    width: 20%;
+  }
+
+  div.info ul li a {
+    font-size: 12px;
+  }
+
+  .info ul li:nth-child(8){
+    padding-top: 0;
+    width: 100%;
+    order: 2;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .info ul li:nth-child(4) {
+    order: 1;
+    width: 25%;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .totop {
+    bottom: 265px;
+    right: 98px;
+  }
 }
